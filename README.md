@@ -1,4 +1,4 @@
-# Reusd - Capstone Project in University of Alaska Anchorage
+# Reusd - Capstone Project
 
 #### A web application that allows people to buy and sell used stuff online. 
 
