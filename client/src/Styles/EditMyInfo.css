@@ -1,0 +1,79 @@
+.EditMyInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.EditMyInfoInputSection {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  gap: 1.4rem;
+  align-items: center;
+}
+
+.EditMyInfo-submitbtn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ed5237;
+  background-color: #f8f8f8;
+  font-size: 12px;
+  font-weight: bold;
+  width: 50px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 2rem;
+  box-shadow: 5px 5px 6px #cecece, -5px -5px 6px #ffffff;
+}
+.EditMyInfo-submitbtn:hover {
+  background-color: white;
+}
+.EditMyInfo-submitbtn:active {
+  box-shadow: inset 5px 5px 6px #cecece, inset -5px -5px 6px #ffffff;
+  color: #808080;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.EditMyInfo-input {
+  border: none;
+  box-shadow: inset 5px 5px 6px #cecece, inset -5px -5px 6px #ffffff;
+  border-radius: 20px;
+  width: 20vw;
+  min-width: 210px;
+  outline: none;
+  padding: 0.7rem 0.9rem;
+  text-align: left;
+}
+.EditMyInfo-input:focus {
+  background-color: white;
+}
+
+.EditMyInfo-select {
+  border: none;
+  box-shadow: inset 5px 5px 6px #cecece, inset -5px -5px 6px #ffffff;
+  border-radius: 20px;
+  width: 20vw;
+  min-width: 210px;
+  outline: none;
+  padding: 0.7rem 0.5rem;
+  text-align: left;
+}
+
+.EditMyInfo-select:focus {
+  background-color: white;
+}
+
+.EditMyInfo-select-option {
+  border: 1px solid #808080;
+  color: black;
+  background-color: white;
+  text-align: left;
+  cursor: pointer;
+  height: 200px;
+  overflow: hidden;
+}

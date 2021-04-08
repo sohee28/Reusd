@@ -1,0 +1,41 @@
+version: '3.7'
+
+services:
+    client:
+        container_name: client
+        build: client/
+        volumes:
+            - './client/.:/app'
+            - '/app/node_modules'
+        ports:
+            - 3000:3000
+        environment: 
+            - CHOKIDAR_USEPOLLING=true
+        stdin_open: true
+        links:
+            - server
+    server:
+        container_name: server
+        build: e-commerce-server/
+        volumes:
+            - './e-commerce-server/.:/app'
+            - '/app/node_modules'
+        ports:
+            - 5000:5000
+        environment: 
+            - CHOKIDAR_USEPOLLING=true
+        stdin_open: true
+
+        links: 
+            - mongo
+            - redis
+    mongo:
+        container_name: mongo
+        image: mongo
+        ports: 
+            - '27017:27017'
+    redis:
+        container_name: redis
+        image: redis
+        ports: 
+            - '6379:6379'

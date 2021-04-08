@@ -1,0 +1,113 @@
+.Chat {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 8px;
+  height: 70vh;
+  width: 35%;
+}
+
+.infoBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  width: 100%;
+  background: #ed5237 !important;
+  box-shadow: 5px 5px 6px #acacac, -5px -5px 6px #ffffff;
+}
+
+.leftInnerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 8%;
+  background: #ed5237;
+}
+
+.leftInnerContainer-p {
+  background: #ed5237;
+  color: white;
+  font-weight: 600;
+}
+
+.rightInnerContainer {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-end;
+  margin-right: 5%;
+  color: black;
+  background: #ed5237;
+  align-items: center;
+}
+.rightInnerContainer-a {
+  background: #ed5237;
+  color: white;
+}
+
+.form {
+  display: flex;
+  border-radius: 0 0 4px 4px;
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+  font-size: 1rem;
+  border-radius: 0 0 4px 4px;
+  box-shadow: inset 5px 5px 6px #cecece, inset -5px -5px 6px #ffffff;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  background-color: #ffffff;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ed5237;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 6px #acacac, -5px -5px 6px #ffffff;
+}
+
+.sendButton:active {
+  box-shadow: inset 5px 5px 6px #77291b, inset -5px -5px 6px #ed5237;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .outerContainer {
+    height: 100%;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+}

@@ -1,0 +1,86 @@
+.SellingHistory {
+  margin: 4rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.SellingHistory-table-section {
+  width: 90%;
+  border: none;
+
+  border-radius: 10px;
+  outline: none;
+  padding: 1rem 1.3rem;
+  text-align: left;
+}
+
+.sellinghistory-title {
+  color: black;
+  margin-bottom: 2rem;
+  font-size: 20px;
+  margin-left: 0.5rem;
+}
+
+.table {
+  border: none;
+}
+
+.edit-delete {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.edit-selling-history-btn {
+  border: none;
+  box-shadow: 5px 5px 6px #cecece, -5px -5px 6px #ffffff;
+  border-radius: 10px;
+  outline: none;
+  padding: 0.5rem;
+  text-align: left;
+  margin-right: 1rem;
+  color: black;
+  cursor: pointer;
+}
+.delete-selling-history-btn {
+  font-size: 15px;
+  border: none;
+  box-shadow: 5px 5px 6px #cecece, -5px -5px 6px #ffffff;
+  border-radius: 10px;
+  outline: none;
+  padding: 0.5rem;
+  text-align: left;
+  color: black;
+  cursor: pointer;
+}
+.status-select:hover,
+.edit-selling-history-btn:hover,
+.delete-selling-history-btn:hover {
+  background-color: white;
+}
+.status-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 3rem;
+}
+
+.status-select {
+  border: none;
+  box-shadow: 5px 5px 6px #cecece, -5px -5px 6px #ffffff;
+  border-radius: 10px;
+  outline: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .edit-selling-history-btn {
+    outline: none;
+    border: none;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+}

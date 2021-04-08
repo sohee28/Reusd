@@ -1,0 +1,48 @@
+.messageBox {
+  border-radius: 20px;
+  padding: 8px 20px;
+  display: inline-block;
+  max-width: 80%;
+  background-color: white;
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 1px;
+  float: left;
+  font-size: 13px;
+  word-wrap: break-word;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 3px;
+  background-color: white;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+  background-color: #ed5237;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.backgroundBlue {
+  background: #ed5237;
+}
+
+.backgroundLight {
+  background: #f3f3f3;
+}
