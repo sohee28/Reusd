@@ -1,7 +1,11 @@
-# Reusd - Capstone Project
+# Reusd
 
 #### A web application that allows people to buy and sell used stuff online. 
 
+A full-stack web marketplace web application for trading used goods with neighbors.
+Features real-time chat between users has two servers for route/authentication and chat
+Development was done using Docker containers to provide a consistent development environment.
+Used MERN stack, typescript, JWT auth, and Socket.io.
 
 ### Tools used : 
 ```
